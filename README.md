@@ -4,7 +4,13 @@
 ```
 npm install
 ```
-
+### Deploy Backend
+```
+npm install -g json-server
+```
+```
+json-server --watch sample_data.json
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
